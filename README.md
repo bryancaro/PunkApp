@@ -41,8 +41,10 @@ end
 Tenga en cuenta que esto requiere la versión 36 de CocoaPods y que su destino de implementación de iOS sea al menos 9.0
 
 ### Walkthrough:
- 
-![IMG_2662](https://user-images.githubusercontent.com/58017823/117590861-b4d05c80-b131-11eb-834e-c37154e730c5.PNG)![IMG_2660](https://user-images.githubusercontent.com/58017823/117590865-bef25b00-b131-11eb-8bac-ba6397f4d5bc.PNG)![IMG_2661](https://user-images.githubusercontent.com/58017823/117590870-c74a9600-b131-11eb-8bf3-d4b0fe68bc14.PNG)
+![IMG_2894](https://user-images.githubusercontent.com/58017823/119732796-f3c41900-be78-11eb-898b-2efae848fa3b.PNG)
+![IMG_2895](https://user-images.githubusercontent.com/58017823/119732804-f6bf0980-be78-11eb-8a65-a36a165e1d88.PNG)
+![IMG_2896](https://user-images.githubusercontent.com/58017823/119732811-f9216380-be78-11eb-985d-9769f4c3470a.PNG)
+![IMG_2897](https://user-images.githubusercontent.com/58017823/119732817-faeb2700-be78-11eb-9899-ab17d08df6f3.PNG)
 
 
 ### Developer: 
