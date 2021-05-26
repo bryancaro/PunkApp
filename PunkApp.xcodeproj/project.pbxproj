@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11C21B47265D57DB0024A7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B46265D57DB0024A7DD /* AppDelegate.swift */; };
+		11C21B49265D57DB0024A7DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B48265D57DB0024A7DD /* SceneDelegate.swift */; };
+		11C21B4D265D57DC0024A7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C21B4C265D57DC0024A7DD /* Assets.xcassets */; };
+		11C21B50265D57DC0024A7DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C21B4F265D57DC0024A7DD /* Preview Assets.xcassets */; };
+		11C21B53265D57DC0024A7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C21B51265D57DC0024A7DD /* LaunchScreen.storyboard */; };
+		11C21B5E265D57DC0024A7DD /* PunkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B5D265D57DC0024A7DD /* PunkAppTests.swift */; };
+		11C21B69265D57DC0024A7DD /* PunkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B68265D57DC0024A7DD /* PunkAppUITests.swift */; };
+		11C21B7B265E85B70024A7DD /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B7A265E85B70024A7DD /* LottieView.swift */; };
+		11C21B80265E88130024A7DD /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B7F265E88130024A7DD /* Beer.swift */; };
+		11C21B84265E8F270024A7DD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B83265E8F270024A7DD /* HomeView.swift */; };
+		11C21B86265E96500024A7DD /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B85265E96500024A7DD /* BeerCell.swift */; };
+		11C21B88265E9A2B0024A7DD /* PaginationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B87265E9A2B0024A7DD /* PaginationView.swift */; };
+		11C21B8A265E9C100024A7DD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B89265E9C100024A7DD /* Utilities.swift */; };
+		11C21B8D265E9D000024A7DD /* BeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B8C265E9D000024A7DD /* BeerService.swift */; };
+		11C21B8F265E9DAC0024A7DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B8E265E9DAC0024A7DD /* Constants.swift */; };
+		11C21B91265E9FF20024A7DD /* BeerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B90265E9FF20024A7DD /* BeerViewModel.swift */; };
+		11C21B93265EA17B0024A7DD /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B92265EA17B0024A7DD /* LoadingView.swift */; };
+		11C21B96265EA1F90024A7DD /* Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 11C21B95265EA1F90024A7DD /* Loading.json */; };
+		11C21B99265EB78C0024A7DD /* BeerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B98265EB78C0024A7DD /* BeerDetailsView.swift */; };
+		11D4FF93265EF0000052BCFD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 11D4FF92265EF0000052BCFD /* README.md */; };
+		3585EEF226F97596A2410E46 /* Pods_PunkApp_PunkAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0270485462BDFF26C0FF50 /* Pods_PunkApp_PunkAppUITests.framework */; };
+		9C0E3F4E913D61B38B701D17 /* Pods_PunkAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C462125F220E42A922529441 /* Pods_PunkAppTests.framework */; };
+		E71976636C9BB2024D3A479D /* Pods_PunkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962493E205CCB2977E97E3E4 /* Pods_PunkApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11C21B5A265D57DC0024A7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11C21B3B265D57DB0024A7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11C21B42265D57DB0024A7DD;
+			remoteInfo = PunkApp;
+		};
+		11C21B65265D57DC0024A7DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11C21B3B265D57DB0024A7DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11C21B42265D57DB0024A7DD;
+			remoteInfo = PunkApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11C21B43265D57DB0024A7DD /* PunkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C21B46265D57DB0024A7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11C21B48265D57DB0024A7DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11C21B4C265D57DC0024A7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11C21B4F265D57DC0024A7DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11C21B52265D57DC0024A7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11C21B54265D57DC0024A7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C21B59265D57DC0024A7DD /* PunkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PunkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C21B5D265D57DC0024A7DD /* PunkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAppTests.swift; sourceTree = "<group>"; };
+		11C21B5F265D57DC0024A7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C21B64265D57DC0024A7DD /* PunkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PunkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C21B68265D57DC0024A7DD /* PunkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunkAppUITests.swift; sourceTree = "<group>"; };
+		11C21B6A265D57DC0024A7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C21B78265E618E0024A7DD /* JsonResponse.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = JsonResponse.geojson; sourceTree = "<group>"; };
+		11C21B7A265E85B70024A7DD /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		11C21B7F265E88130024A7DD /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		11C21B83265E8F270024A7DD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		11C21B85265E96500024A7DD /* BeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
+		11C21B87265E9A2B0024A7DD /* PaginationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationView.swift; sourceTree = "<group>"; };
+		11C21B89265E9C100024A7DD /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		11C21B8C265E9D000024A7DD /* BeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerService.swift; sourceTree = "<group>"; };
+		11C21B8E265E9DAC0024A7DD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		11C21B90265E9FF20024A7DD /* BeerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewModel.swift; sourceTree = "<group>"; };
+		11C21B92265EA17B0024A7DD /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		11C21B95265EA1F90024A7DD /* Loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loading.json; sourceTree = "<group>"; };
+		11C21B98265EB78C0024A7DD /* BeerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailsView.swift; sourceTree = "<group>"; };
+		11D4FF92265EF0000052BCFD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BC185C7721F212CD203BEE7 /* Pods-PunkAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkAppTests.release.xcconfig"; path = "Target Support Files/Pods-PunkAppTests/Pods-PunkAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D39D49C04D08107F54422AF /* Pods-PunkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkApp.debug.xcconfig"; path = "Target Support Files/Pods-PunkApp/Pods-PunkApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5C0270485462BDFF26C0FF50 /* Pods_PunkApp_PunkAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunkApp_PunkAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3D31D7E3293E07255EA4B5 /* Pods-PunkAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PunkAppTests/Pods-PunkAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71FED35231887548F862CDA9 /* Pods-PunkApp-PunkAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkApp-PunkAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PunkApp-PunkAppUITests/Pods-PunkApp-PunkAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		962493E205CCB2977E97E3E4 /* Pods_PunkApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunkApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C462125F220E42A922529441 /* Pods_PunkAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunkAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5299EA4CF90050BF0A2CA9 /* Pods-PunkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkApp.release.xcconfig"; path = "Target Support Files/Pods-PunkApp/Pods-PunkApp.release.xcconfig"; sourceTree = "<group>"; };
+		CD8E22ABA0DEC58FD6119A28 /* Pods-PunkApp-PunkAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkApp-PunkAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PunkApp-PunkAppUITests/Pods-PunkApp-PunkAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11C21B40265D57DB0024A7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71976636C9BB2024D3A479D /* Pods_PunkApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C21B56265D57DC0024A7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0E3F4E913D61B38B701D17 /* Pods_PunkAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C21B61265D57DC0024A7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3585EEF226F97596A2410E46 /* Pods_PunkApp_PunkAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C21B3A265D57DB0024A7DD = {
+			isa = PBXGroup;
+			children = (
+				11C21B45265D57DB0024A7DD /* PunkApp */,
+				11C21B5C265D57DC0024A7DD /* PunkAppTests */,
+				11C21B67265D57DC0024A7DD /* PunkAppUITests */,
+				11C21B44265D57DB0024A7DD /* Products */,
+				13ECF05800C446C20C7BC295 /* Pods */,
+				3C1BC2F901B2B6B01FAC8C0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11C21B44265D57DB0024A7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B43265D57DB0024A7DD /* PunkApp.app */,
+				11C21B59265D57DC0024A7DD /* PunkAppTests.xctest */,
+				11C21B64265D57DC0024A7DD /* PunkAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11C21B45265D57DB0024A7DD /* PunkApp */ = {
+			isa = PBXGroup;
+			children = (
+				11D4FF92265EF0000052BCFD /* README.md */,
+				11C21B7C265E87D30024A7DD /* Model */,
+				11C21B7D265E87D90024A7DD /* View */,
+				11C21B7E265E87DE0024A7DD /* ViewModel */,
+				11C21B8B265E9C740024A7DD /* API */,
+				11C21B76265E616F0024A7DD /* Utils */,
+				11C21B46265D57DB0024A7DD /* AppDelegate.swift */,
+				11C21B48265D57DB0024A7DD /* SceneDelegate.swift */,
+				11C21B4C265D57DC0024A7DD /* Assets.xcassets */,
+				11C21B51265D57DC0024A7DD /* LaunchScreen.storyboard */,
+				11C21B54265D57DC0024A7DD /* Info.plist */,
+				11C21B4E265D57DC0024A7DD /* Preview Content */,
+			);
+			path = PunkApp;
+			sourceTree = "<group>";
+		};
+		11C21B4E265D57DC0024A7DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B4F265D57DC0024A7DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11C21B5C265D57DC0024A7DD /* PunkAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B5D265D57DC0024A7DD /* PunkAppTests.swift */,
+				11C21B5F265D57DC0024A7DD /* Info.plist */,
+			);
+			path = PunkAppTests;
+			sourceTree = "<group>";
+		};
+		11C21B67265D57DC0024A7DD /* PunkAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B68265D57DC0024A7DD /* PunkAppUITests.swift */,
+				11C21B6A265D57DC0024A7DD /* Info.plist */,
+			);
+			path = PunkAppUITests;
+			sourceTree = "<group>";
+		};
+		11C21B76265E616F0024A7DD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B77265E61780024A7DD /* JSON */,
+				11C21B79265E85A40024A7DD /* Lottie */,
+				11C21B89265E9C100024A7DD /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		11C21B77265E61780024A7DD /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B78265E618E0024A7DD /* JsonResponse.geojson */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		11C21B79265E85A40024A7DD /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B94265EA1E40024A7DD /* Files */,
+				11C21B7A265E85B70024A7DD /* LottieView.swift */,
+				11C21B92265EA17B0024A7DD /* LoadingView.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		11C21B7C265E87D30024A7DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B7F265E88130024A7DD /* Beer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11C21B7D265E87D90024A7DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B83265E8F270024A7DD /* HomeView.swift */,
+				11C21B98265EB78C0024A7DD /* BeerDetailsView.swift */,
+				11C21B85265E96500024A7DD /* BeerCell.swift */,
+				11C21B87265E9A2B0024A7DD /* PaginationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11C21B7E265E87DE0024A7DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B90265E9FF20024A7DD /* BeerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11C21B8B265E9C740024A7DD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B8E265E9DAC0024A7DD /* Constants.swift */,
+				11C21B8C265E9D000024A7DD /* BeerService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		11C21B94265EA1E40024A7DD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				11C21B95265EA1F90024A7DD /* Loading.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		13ECF05800C446C20C7BC295 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D39D49C04D08107F54422AF /* Pods-PunkApp.debug.xcconfig */,
+				CD5299EA4CF90050BF0A2CA9 /* Pods-PunkApp.release.xcconfig */,
+				CD8E22ABA0DEC58FD6119A28 /* Pods-PunkApp-PunkAppUITests.debug.xcconfig */,
+				71FED35231887548F862CDA9 /* Pods-PunkApp-PunkAppUITests.release.xcconfig */,
+				6A3D31D7E3293E07255EA4B5 /* Pods-PunkAppTests.debug.xcconfig */,
+				3BC185C7721F212CD203BEE7 /* Pods-PunkAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C1BC2F901B2B6B01FAC8C0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				962493E205CCB2977E97E3E4 /* Pods_PunkApp.framework */,
+				5C0270485462BDFF26C0FF50 /* Pods_PunkApp_PunkAppUITests.framework */,
+				C462125F220E42A922529441 /* Pods_PunkAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11C21B42265D57DB0024A7DD /* PunkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C21B6D265D57DC0024A7DD /* Build configuration list for PBXNativeTarget "PunkApp" */;
+			buildPhases = (
+				C4E0AD1F7E896EB9C67F4BA9 /* [CP] Check Pods Manifest.lock */,
+				11C21B3F265D57DB0024A7DD /* Sources */,
+				11C21B40265D57DB0024A7DD /* Frameworks */,
+				11C21B41265D57DB0024A7DD /* Resources */,
+				9EF587D23A2176450D7EF58A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PunkApp;
+			productName = PunkApp;
+			productReference = 11C21B43265D57DB0024A7DD /* PunkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11C21B58265D57DC0024A7DD /* PunkAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C21B70265D57DC0024A7DD /* Build configuration list for PBXNativeTarget "PunkAppTests" */;
+			buildPhases = (
+				1A9FE00DF5F9598B1197FDBD /* [CP] Check Pods Manifest.lock */,
+				11C21B55265D57DC0024A7DD /* Sources */,
+				11C21B56265D57DC0024A7DD /* Frameworks */,
+				11C21B57265D57DC0024A7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11C21B5B265D57DC0024A7DD /* PBXTargetDependency */,
+			);
+			name = PunkAppTests;
+			productName = PunkAppTests;
+			productReference = 11C21B59265D57DC0024A7DD /* PunkAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11C21B63265D57DC0024A7DD /* PunkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C21B73265D57DC0024A7DD /* Build configuration list for PBXNativeTarget "PunkAppUITests" */;
+			buildPhases = (
+				68976098FF3B84B2A6292C51 /* [CP] Check Pods Manifest.lock */,
+				11C21B60265D57DC0024A7DD /* Sources */,
+				11C21B61265D57DC0024A7DD /* Frameworks */,
+				11C21B62265D57DC0024A7DD /* Resources */,
+				1E8723A80B68F5497F5B34D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11C21B66265D57DC0024A7DD /* PBXTargetDependency */,
+			);
+			name = PunkAppUITests;
+			productName = PunkAppUITests;
+			productReference = 11C21B64265D57DC0024A7DD /* PunkAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11C21B3B265D57DB0024A7DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					11C21B42265D57DB0024A7DD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					11C21B58265D57DC0024A7DD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 11C21B42265D57DB0024A7DD;
+					};
+					11C21B63265D57DC0024A7DD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 11C21B42265D57DB0024A7DD;
+					};
+				};
+			};
+			buildConfigurationList = 11C21B3E265D57DB0024A7DD /* Build configuration list for PBXProject "PunkApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11C21B3A265D57DB0024A7DD;
+			productRefGroup = 11C21B44265D57DB0024A7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11C21B42265D57DB0024A7DD /* PunkApp */,
+				11C21B58265D57DC0024A7DD /* PunkAppTests */,
+				11C21B63265D57DC0024A7DD /* PunkAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11C21B41265D57DB0024A7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C21B53265D57DC0024A7DD /* LaunchScreen.storyboard in Resources */,
+				11C21B50265D57DC0024A7DD /* Preview Assets.xcassets in Resources */,
+				11D4FF93265EF0000052BCFD /* README.md in Resources */,
+				11C21B96265EA1F90024A7DD /* Loading.json in Resources */,
+				11C21B4D265D57DC0024A7DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C21B57265D57DC0024A7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C21B62265D57DC0024A7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A9FE00DF5F9598B1197FDBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PunkAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E8723A80B68F5497F5B34D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PunkApp-PunkAppUITests/Pods-PunkApp-PunkAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PunkApp-PunkAppUITests/Pods-PunkApp-PunkAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PunkApp-PunkAppUITests/Pods-PunkApp-PunkAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68976098FF3B84B2A6292C51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PunkApp-PunkAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF587D23A2176450D7EF58A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PunkApp/Pods-PunkApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PunkApp/Pods-PunkApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PunkApp/Pods-PunkApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E0AD1F7E896EB9C67F4BA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PunkApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11C21B3F265D57DB0024A7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C21B91265E9FF20024A7DD /* BeerViewModel.swift in Sources */,
+				11C21B47265D57DB0024A7DD /* AppDelegate.swift in Sources */,
+				11C21B8F265E9DAC0024A7DD /* Constants.swift in Sources */,
+				11C21B8D265E9D000024A7DD /* BeerService.swift in Sources */,
+				11C21B49265D57DB0024A7DD /* SceneDelegate.swift in Sources */,
+				11C21B86265E96500024A7DD /* BeerCell.swift in Sources */,
+				11C21B80265E88130024A7DD /* Beer.swift in Sources */,
+				11C21B88265E9A2B0024A7DD /* PaginationView.swift in Sources */,
+				11C21B84265E8F270024A7DD /* HomeView.swift in Sources */,
+				11C21B8A265E9C100024A7DD /* Utilities.swift in Sources */,
+				11C21B99265EB78C0024A7DD /* BeerDetailsView.swift in Sources */,
+				11C21B93265EA17B0024A7DD /* LoadingView.swift in Sources */,
+				11C21B7B265E85B70024A7DD /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C21B55265D57DC0024A7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C21B5E265D57DC0024A7DD /* PunkAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11C21B60265D57DC0024A7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C21B69265D57DC0024A7DD /* PunkAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11C21B5B265D57DC0024A7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11C21B42265D57DB0024A7DD /* PunkApp */;
+			targetProxy = 11C21B5A265D57DC0024A7DD /* PBXContainerItemProxy */;
+		};
+		11C21B66265D57DC0024A7DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11C21B42265D57DB0024A7DD /* PunkApp */;
+			targetProxy = 11C21B65265D57DC0024A7DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11C21B51265D57DC0024A7DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11C21B52265D57DC0024A7DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11C21B6B265D57DC0024A7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11C21B6C265D57DC0024A7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11C21B6E265D57DC0024A7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D39D49C04D08107F54422AF /* Pods-PunkApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PunkApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZASPB3G349;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PunkApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fractalteam.PunkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		11C21B6F265D57DC0024A7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5299EA4CF90050BF0A2CA9 /* Pods-PunkApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PunkApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZASPB3G349;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PunkApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fractalteam.PunkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		11C21B71265D57DC0024A7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3D31D7E3293E07255EA4B5 /* Pods-PunkAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZASPB3G349;
+				INFOPLIST_FILE = PunkAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fractalteam.PunkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PunkApp.app/PunkApp";
+			};
+			name = Debug;
+		};
+		11C21B72265D57DC0024A7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC185C7721F212CD203BEE7 /* Pods-PunkAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZASPB3G349;
+				INFOPLIST_FILE = PunkAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fractalteam.PunkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PunkApp.app/PunkApp";
+			};
+			name = Release;
+		};
+		11C21B74265D57DC0024A7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8E22ABA0DEC58FD6119A28 /* Pods-PunkApp-PunkAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZASPB3G349;
+				INFOPLIST_FILE = PunkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fractalteam.PunkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PunkApp;
+			};
+			name = Debug;
+		};
+		11C21B75265D57DC0024A7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FED35231887548F862CDA9 /* Pods-PunkApp-PunkAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZASPB3G349;
+				INFOPLIST_FILE = PunkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fractalteam.PunkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PunkApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11C21B3E265D57DB0024A7DD /* Build configuration list for PBXProject "PunkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C21B6B265D57DC0024A7DD /* Debug */,
+				11C21B6C265D57DC0024A7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11C21B6D265D57DC0024A7DD /* Build configuration list for PBXNativeTarget "PunkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C21B6E265D57DC0024A7DD /* Debug */,
+				11C21B6F265D57DC0024A7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11C21B70265D57DC0024A7DD /* Build configuration list for PBXNativeTarget "PunkAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C21B71265D57DC0024A7DD /* Debug */,
+				11C21B72265D57DC0024A7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11C21B73265D57DC0024A7DD /* Build configuration list for PBXNativeTarget "PunkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C21B74265D57DC0024A7DD /* Debug */,
+				11C21B75265D57DC0024A7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11C21B3B265D57DB0024A7DD /* Project object */;
+}
