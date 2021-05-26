@@ -26,7 +26,6 @@
 		11C21B93265EA17B0024A7DD /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B92265EA17B0024A7DD /* LoadingView.swift */; };
 		11C21B96265EA1F90024A7DD /* Loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 11C21B95265EA1F90024A7DD /* Loading.json */; };
 		11C21B99265EB78C0024A7DD /* BeerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C21B98265EB78C0024A7DD /* BeerDetailsView.swift */; };
-		11D4FF93265EF0000052BCFD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 11D4FF92265EF0000052BCFD /* README.md */; };
 		3585EEF226F97596A2410E46 /* Pods_PunkApp_PunkAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0270485462BDFF26C0FF50 /* Pods_PunkApp_PunkAppUITests.framework */; };
 		9C0E3F4E913D61B38B701D17 /* Pods_PunkAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C462125F220E42A922529441 /* Pods_PunkAppTests.framework */; };
 		E71976636C9BB2024D3A479D /* Pods_PunkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962493E205CCB2977E97E3E4 /* Pods_PunkApp.framework */; };
@@ -76,7 +75,6 @@
 		11C21B92265EA17B0024A7DD /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		11C21B95265EA1F90024A7DD /* Loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Loading.json; sourceTree = "<group>"; };
 		11C21B98265EB78C0024A7DD /* BeerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailsView.swift; sourceTree = "<group>"; };
-		11D4FF92265EF0000052BCFD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3BC185C7721F212CD203BEE7 /* Pods-PunkAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkAppTests.release.xcconfig"; path = "Target Support Files/Pods-PunkAppTests/Pods-PunkAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D39D49C04D08107F54422AF /* Pods-PunkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunkApp.debug.xcconfig"; path = "Target Support Files/Pods-PunkApp/Pods-PunkApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5C0270485462BDFF26C0FF50 /* Pods_PunkApp_PunkAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunkApp_PunkAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,7 +139,6 @@
 		11C21B45265D57DB0024A7DD /* PunkApp */ = {
 			isa = PBXGroup;
 			children = (
-				11D4FF92265EF0000052BCFD /* README.md */,
 				11C21B7C265E87D30024A7DD /* Model */,
 				11C21B7D265E87D90024A7DD /* View */,
 				11C21B7E265E87DE0024A7DD /* ViewModel */,
@@ -388,7 +385,6 @@
 			files = (
 				11C21B53265D57DC0024A7DD /* LaunchScreen.storyboard in Resources */,
 				11C21B50265D57DC0024A7DD /* Preview Assets.xcassets in Resources */,
-				11D4FF93265EF0000052BCFD /* README.md in Resources */,
 				11C21B96265EA1F90024A7DD /* Loading.json in Resources */,
 				11C21B4D265D57DC0024A7DD /* Assets.xcassets in Resources */,
 			);
